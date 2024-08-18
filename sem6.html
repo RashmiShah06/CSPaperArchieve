@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem-6</title>
+    <style>
+        body {
+            background-color: #f4f4f4; 
+            color: #2c3e50; 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .heading {
+            width: 100%;
+            height: 100px;
+            background-color: #2c3e50; 
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .maincontainer{
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            margin: 0 auto;
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+
+        }
+        .box {
+            background-color: #3498db; 
+            border-radius: 6px;
+            padding: 20px;
+            border: 1px solid #2980b9; 
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+        .box a {
+            text-decoration: none;
+            color: inherit; 
+            font-size: 18px;
+        }
+        .box:hover {
+            background-color: #107cc4; 
+        }
+        p {
+            font-size: 25px;
+            background-color: #e1e5e6;
+            color: #2c3e50; 
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e74c3c; 
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Semester I
+        </h1>
+    </div>
+    <p>Artificial Intelligence</p>
+    <div class="container">
+        <a href="AI1.pdf" class = "box">📝 PYQ1</a>
+        <a href="AI2.pdf" class = "box">📝 PYQ2</a>
+        <a href="AI3.pdf" class = "box">📝 PYQ3</a>
+        <a href="AI4.pdf" class = "box">📝 PYQ4</a>
+
+
+    </div>
+    <p>Machine Learning</p>
+    <div class="container">
+        
+            <a href="ML1.pdf" class = "box">📝 PYQ1</a>
+            <a href="ML2.pdf" class = "box">📝 PYQ2</a>
+       
+    </div>
+    <p>Introduction to Parallel Programming</p>
+    <div class="container">
+    
+    </div>
+</body>
+</html>
